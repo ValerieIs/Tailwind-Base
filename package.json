@@ -1,0 +1,26 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o docs/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValerieIs/Tailwind-Base.git"
+  },
+  "author": "Valeria Isaeva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValerieIs/Tailwind-Base/issues"
+  },
+  "homepage": "https://github.com/ValerieIs/Tailwind-Base#readme"
+}
